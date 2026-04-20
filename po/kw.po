@@ -1,189 +1,192 @@
-# Quentin PAGÈS <quentinantonin@free.fr>, 2023, 2024, 2025.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the frog package.
+# Flynn <cirilla@tuta.io>, 2025, 2026.
 msgid ""
 msgstr ""
-"Project-Id-Version: frog\n"
+"Project-Id-Version: frog 1.4.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-12-25 11:43+0300\n"
-"PO-Revision-Date: 2025-07-23 10:01+0000\n"
-"Last-Translator: Quentin PAGÈS <quentinantonin@free.fr>\n"
-"Language-Team: Occitan <https://hosted.weblate.org/projects/frog/default/oc/>"
+"PO-Revision-Date: 2026-01-28 13:41+0000\n"
+"Last-Translator: Flynn <cirilla@tuta.io>\n"
+"Language-Team: Cornish <https://hosted.weblate.org/projects/frog/default/kw/>"
 "\n"
-"Language: oc\n"
+"Language: kw\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.13-dev\n"
-"X-Poedit-Basepath: ..\n"
-"X-Poedit-SourceCharset: UTF-8\n"
-"X-Poedit-SearchPath-0: data/ui\n"
-"X-Poedit-SearchPath-1: data/com.github.tenderowl.frog.desktop.in\n"
-"X-Poedit-SearchPath-2: data/com.github.tenderowl.frog.appdata.xml.in\n"
-"X-Poedit-SearchPath-3: frog\n"
+"Plural-Forms: nplurals=6; plural=(n == 0) ? 0 : ((n == 1) ? 1 : (((n % 100 "
+"== 2 || n % 100 == 22 || n % 100 == 42 || n % 100 == 62 || n % 100 == 82) || "
+"n % 1000 == 0 && (n % 100000 >= 1000 && n % 100000 <= 20000 || n % 100000 == "
+"40000 || n % 100000 == 60000 || n % 100000 == 80000) || n != 0 && n % "
+"1000000 == 100000) ? 2 : ((n % 100 == 3 || n % 100 == 23 || n % 100 == 43 || "
+"n % 100 == 63 || n % 100 == 83) ? 3 : ((n != 1 && (n % 100 == 1 || n % 100 "
+"== 21 || n % 100 == 41 || n % 100 == 61 || n % 100 == 81)) ? 4 : 5))));\n"
+"X-Generator: Weblate 5.16-dev\n"
 
 #: ../data/com.github.tenderowl.frog.appdata.xml.in:6
 #: ../data/com.github.tenderowl.frog.desktop.in:3
 msgid "Frog"
-msgstr "Frog"
+msgstr "Kwilkyn"
 
 #: ../data/com.github.tenderowl.frog.appdata.xml.in:7
 msgid "Extract text from images"
-msgstr "Extraire lo tèxte d’un imatge"
+msgstr "Tenna yn-mes tekst a avenyow"
 
 #: ../data/com.github.tenderowl.frog.appdata.xml.in:9
 msgid ""
 "Extract text from images, websites, videos, and QR codes by taking a picture "
 "of the source."
 msgstr ""
-"Extraire lo tèxte dels imatges, paginas web, vidèos o còdi QR en prenent un "
-"imatge de la font."
+"Tenna yn-mes tekst a avenyow, gwiasvaow, ha kodys QR gans ow kemeres unn "
+"imach a'n pennfenten."
 
 #: ../data/com.github.tenderowl.frog.desktop.in:4
 msgid "Text extraction tool"
-msgstr "Aisina d’extraccion de tèxte"
+msgstr "Toul rag estennans tekst"
 
 #: ../data/com.github.tenderowl.frog.desktop.in:5
 msgid "Extract text from any image, video or web page"
-msgstr "Traire lo tèxt de quin imatge, vidèo o pagina web que siá"
+msgstr "Tenna yn-mes tekst a neb aven, gwydhyow, po gwiasva"
 
 #: ../data/com.github.tenderowl.frog.desktop.in:12
 msgid "OCR;Text;Extraction;"
-msgstr "OCR;Tèxte;Extraccion;"
+msgstr "OCR;Tekst;Estennans;"
 
 #: ../data/com.github.tenderowl.frog.desktop.in:18
 msgid "Extract Text to the Clipboard"
-msgstr "Extraire lo tèxte del quichapapièrs"
+msgstr "Tenna yn-mes Tekst war'n Astel Glypp"
 
 #: ../data/ui/extracted_page.blp:25
 msgid "Take a screenshot"
-msgstr "Prendre una captura"
+msgstr "Kemeres unn imach"
 
 #: ../data/ui/extracted_page.blp:33
 msgctxt "Extracted screen"
 msgid "Copy extracted text to clipboard"
-msgstr "Copiar lo tèxt trach al quichapapièrs"
+msgstr "Kopia tekst estennansys dhe astel glypp"
 
 #: ../data/ui/extracted_page.blp:40
 msgctxt "Extracted screen"
 msgid "Listen to text"
-msgstr "Escotar lo tèxte"
+msgstr "Goslowes dhe tekst"
 
 #: ../data/ui/extracted_page.blp:47
 msgctxt "Extracted screen"
 msgid "Cancel listening to text"
-msgstr "Anullar l’escota del tèxte"
+msgstr "Hedhi ow goslowes dhe tekst"
 
 #: ../data/ui/extracted_page.blp:60
 msgctxt "Extracted screen"
 msgid "Open menu"
-msgstr "Dobrir lo menú"
+msgstr "Ygeri rol"
 
 #: ../data/ui/extracted_page.blp:67
 msgctxt "Extracted screen"
 msgid "Share To"
-msgstr "Partejar amb"
+msgstr "Kevrenna"
 
 #: ../data/ui/extracted_page.blp:104 ../data/ui/welcome_page.blp:127
 msgid "Preferences"
-msgstr "Preferéncias"
+msgstr "Settyansow"
 
 #: ../data/ui/extracted_page.blp:111 ../data/ui/welcome_page.blp:134
 msgid "Keyboard Shortcuts"
-msgstr "Acorchis clavièr"
+msgstr "Kesunyansow Bysowek"
 
 #: ../data/ui/extracted_page.blp:116 ../data/ui/welcome_page.blp:139
 msgid "About Frog"
-msgstr "A prepaus de Frog"
+msgstr "A-dro Kwilkyn"
 
 #: ../data/ui/extracted_page.blp:124 ../data/ui/welcome_page.blp:154
 msgid "Open image"
-msgstr "Dobrir un imatge"
+msgstr "Ygeri aven"
 
 #: ../data/ui/extracted_page.blp:125 ../data/ui/welcome_page.blp:155
 msgid "Paste from clipboard"
-msgstr "Pegar a partir del quichapapièrs"
+msgstr "Dasskrifa a-dhia astel glypp"
 
 #: ../data/ui/language_dialog.blp:14
 msgid "Available Languages"
-msgstr "Lengas disponiblas"
+msgstr "Yethow Kavadow"
 
 #: ../data/ui/language_popover.blp:21 ../data/ui/preferences_languages.blp:19
 msgid "Search Languages…"
-msgstr "Cercar una lenga de lengas…"
+msgstr "Hwilas Yethow…"
 
 #: ../data/ui/language_popover.blp:70 ../data/ui/preferences_languages.blp:101
 msgid "No Results Found"
-msgstr "Cap de resultat"
+msgstr "Sewyansow Kavosys Vyth"
 
 #: ../data/ui/language_popover.blp:77
 msgid "Add Language"
-msgstr "Apondre una lenga"
+msgstr "Addya Yeth"
 
 #: ../data/ui/language_row.blp:21
 msgctxt "Preferences Language Row"
 msgid "Install language"
-msgstr "Installar una lenga"
+msgstr "Lea yeth"
 
 #: ../data/ui/language_row.blp:30
 msgctxt "Preferences Language Row"
 msgid "Remove language"
-msgstr "Suprimir la lenga"
+msgstr "Dilea yeth"
 
 #: ../data/ui/preferences_general.blp:5
 msgid "_General"
-msgstr "_General"
+msgstr "_Ollgemmyn"
 
 #: ../data/ui/preferences_general.blp:10
 msgid "Text Extracting"
-msgstr "Extraccion del tèxte"
+msgstr "Ow Tenna yn-mes Tekst"
 
 #: ../data/ui/preferences_general.blp:13
 msgid "_Second language"
-msgstr "_Segonda lenga"
+msgstr "_Yeth nessa"
 
 #: ../data/ui/preferences_general.blp:15
 msgid "Additional language used in text recognition"
-msgstr "Lenga suplementària utilizada per la reconeissença del tèxte"
+msgstr "Yeth keworransel devnydhys yn aswonvos tekst"
 
 #: ../data/ui/preferences_general.blp:20
 msgid "Behavior"
-msgstr "Compòrtament"
+msgstr "Fara"
 
 #: ../data/ui/preferences_general.blp:23
 msgid "_Copy to clipboard"
-msgstr "_Copiar lo tèxt trach al quichapapièrs"
+msgstr "_Kopia dhe astel glypp"
 
 #: ../data/ui/preferences_general.blp:25
 msgid "Automatically copy the extracted text to clipboard"
-msgstr "Copiar automaticament lo tèxt trach al quichapapièrs"
+msgstr "Kopia awtomatek an tekst estennansys dhe astel glypp"
 
 #: ../data/ui/preferences_general.blp:34
 msgid "_Open QR-code links"
-msgstr "_Dobrir los ligams de QR còdi"
+msgstr "Ygeri _gorgevrennow kod-QR"
 
 #: ../data/ui/preferences_general.blp:36
 msgid "Automatically open links from QR-codes"
-msgstr "Dobrir automaticament los ligams traches dels còdis QR"
+msgstr "Ygeri awtomatek gorgevrennow a-dhia kodys-QR"
 
 #: ../data/ui/preferences_languages.blp:6
 msgid "_Languages"
-msgstr "_Lengas"
+msgstr "_Yethow"
 
 #: ../data/ui/preferences_languages.blp:24
 msgid "Models location unreachable. Check your internet connection"
-msgstr "Emplaçament dels modèls inaccessible. Verificatz la connexion internet"
+msgstr "Tyller medhelweyth ankavadow. Checkya dha junyans kesrosweyth"
 
 #: ../data/ui/preferences_languages.blp:26
 msgid "Retry"
-msgstr "Tornar ensajar"
+msgstr "Hwilewgh arta"
 
 #: ../data/ui/preferences_languages.blp:42
 msgid "Installed languages"
-msgstr "Lengas installadas"
+msgstr "Yethow leys"
 
 #: ../data/ui/share_row.blp:14
 msgid "Share via Pocket"
-msgstr "Partejar via Pocket"
+msgstr "Kevrenna dre Pocket"
 
 #: ../data/ui/share_row.blp:22
 msgid "Pocket"
@@ -192,113 +195,113 @@ msgstr "Pocket"
 #: ../data/ui/shortcuts.blp:5
 msgctxt "shortcut window"
 msgid "Shortcuts"
-msgstr "Acorchis"
+msgstr "Kesunyansow Bysowek"
 
 #: ../data/ui/shortcuts.blp:12
 msgctxt "shortcut window"
 msgid "General"
-msgstr "General"
+msgstr "Ollgemmyn"
 
 #: ../data/ui/shortcuts.blp:16
 msgctxt "shortcut window"
 msgid "Open image"
-msgstr "Dobrir l'imatge"
+msgstr "Ygeri aven"
 
 #: ../data/ui/shortcuts.blp:21
 msgctxt "shortcut window"
 msgid "Take screenshot and extract text"
-msgstr "Prendre una captura d’ecran e traire lo tèxt"
+msgstr "Kemeres imach ha tenna yn-mes tekst"
 
 #: ../data/ui/shortcuts.blp:26
 msgctxt "shortcut window"
 msgid "Extract text and copy it to clipboard"
-msgstr "Extraire lo tèxte e lo copiar al quichapapièrs"
+msgstr "Tenna yn-mes tekst ha kopia y dhe astell glypp"
 
 #: ../data/ui/shortcuts.blp:27
 msgctxt "shortcut window"
 msgid "May not work properly on wayland"
-msgstr "Fonciona pas jos wayland"
+msgstr "Re na oberi yn fas yn Wayland"
 
 #: ../data/ui/shortcuts.blp:32
 msgctxt "shortcut window"
 msgid "Copy extracted text to clipboard"
-msgstr "Copiar lo tèxt trach al quichapapièrs"
+msgstr "Kopia tekst estennansys dhe astel glypp"
 
 #: ../data/ui/shortcuts.blp:37
 msgctxt "shortcut window"
 msgid "Application"
-msgstr "Aplicacion"
+msgstr "App"
 
 #: ../data/ui/shortcuts.blp:41
 msgctxt "shortcut window"
 msgid "Preferences"
-msgstr "Preferéncias"
+msgstr "Settyansow"
 
 #: ../data/ui/shortcuts.blp:46
 msgctxt "shortcut window"
 msgid "Quit"
-msgstr "Quitar"
+msgstr "Kwytya"
 
 #: ../data/ui/shortcuts.blp:51
 msgctxt "shortcut window"
 msgid "Help"
-msgstr "Ajuda"
+msgstr "Gweres"
 
 #: ../data/ui/shortcuts.blp:55
 msgctxt "shortcut window"
 msgid "Display Shortcuts"
-msgstr "Afichar los acorchis"
+msgstr "Diskwedhes Kesunyansow Bysowek"
 
 #: ../data/ui/welcome_page.blp:12 ../data/ui/welcome_page.blp:49
 msgid "Extract text from anywhere"
-msgstr "Traire lo tèxt d’ont que venga"
+msgstr "Tenna yn-mes tekst a neb le"
 
 #: ../data/ui/welcome_page.blp:21
 msgid "Language"
-msgstr "Lenga"
+msgstr "Yeth"
 
 #: ../data/ui/welcome_page.blp:22
 msgid "Select language to extract"
-msgstr "Seleccionatz la lenga de traire"
+msgstr "Dewis yeth dhe tenna yn-mes"
 
 #: ../data/ui/welcome_page.blp:43
 msgid "Open menu"
-msgstr "Dobrir lo menú"
+msgstr "Ygeri rol"
 
 #: ../data/ui/welcome_page.blp:58
 msgctxt "Welcome screen"
 msgid "Take a Screenshot"
-msgstr "Prendre una captura"
+msgstr "Kemeres unn Imach"
 
 #: ../data/ui/welcome_page.blp:71
 msgid "_Take a Screenshot"
-msgstr "_Prendre una captura"
+msgstr "_Kemeres unn Imach"
 
 #: ../data/ui/welcome_page.blp:79
 msgctxt "Welcome screen"
 msgid "Open Image"
-msgstr "Dobrir un imatge"
+msgstr "Ygeri Aven"
 
 #: ../data/ui/welcome_page.blp:92
 msgid "_Open Image"
-msgstr "_Dobrir un imatge"
+msgstr "_Ygeri Aven"
 
 #: ../data/ui/welcome_page.blp:100
 msgctxt "Welcome screen"
 msgid "Paste image from clipboard"
-msgstr "Pegar un imatge a partir del quichapapièrs"
+msgstr "Dasskrifa aven a-dhia astel glypp"
 
 #: ../data/ui/welcome_page.blp:113
 msgid "Paste Image"
-msgstr "Pegar un imatge"
+msgstr "Dasskrifa Aven"
 
 #: ../data/ui/welcome_page.blp:146
 msgid "⭐ Star on GitHub"
-msgstr "⭐ Marcar sus GitHub"
+msgstr "⭐Steren war GitHub"
 
 #: ../frog/language_manager.py:54 ../frog/language_manager.py:90
 msgid "English"
-msgstr "Anglés"
+msgstr "Sowsnek"
 
 #: ../frog/language_manager.py:66
 msgid "Afrikaans"
@@ -306,263 +309,263 @@ msgstr "Afrikaans"
 
 #: ../frog/language_manager.py:67
 msgid "Amharic"
-msgstr "Amaric"
+msgstr "Amharek"
 
 #: ../frog/language_manager.py:68
 msgid "Arabic"
-msgstr "Arabi"
+msgstr "Arabek"
 
 #: ../frog/language_manager.py:69
 msgid "Assamese"
-msgstr "Assamés"
+msgstr "Assamek"
 
 #: ../frog/language_manager.py:70
 msgid "Azerbaijani"
-msgstr ""
+msgstr "Azerbayjanek"
 
 #: ../frog/language_manager.py:71
 msgid "Azerbaijani - Cyrilic"
-msgstr ""
+msgstr "Azerbayjanek - Cyrilek"
 
 #: ../frog/language_manager.py:72
 msgid "Belarusian"
-msgstr "Bielorús"
+msgstr "Belarussek"
 
 #: ../frog/language_manager.py:73
 msgid "Bengali"
-msgstr "Bengalí"
+msgstr "Bengalek"
 
 #: ../frog/language_manager.py:74
 msgid "Tibetan"
-msgstr "Tibetan"
+msgstr "Tibetek"
 
 #: ../frog/language_manager.py:75
 msgid "Bosnian"
-msgstr "Bosniac"
+msgstr "Bosniek"
 
 #: ../frog/language_manager.py:76
 msgid "Breton"
-msgstr "Breton"
+msgstr "Bretonek"
 
 #: ../frog/language_manager.py:77
 msgid "Bulgarian"
-msgstr "Bulgar"
+msgstr "Bulgarek"
 
 #: ../frog/language_manager.py:78
 msgid "Catalan; Valencian"
-msgstr "Catalan / Valencian"
+msgstr "Katalonek;Valencek"
 
 #: ../frog/language_manager.py:79
 msgid "Cebuano"
-msgstr ""
+msgstr "Cebuanek"
 
 #: ../frog/language_manager.py:80
 msgid "Czech"
-msgstr "Chèc"
+msgstr "Chekek"
 
 #: ../frog/language_manager.py:81
 msgid "Chinese - Simplified"
-msgstr "Chinés - Simplificat"
+msgstr "Chinek - Sempelhys"
 
 #: ../frog/language_manager.py:82
 msgid "Chinese - Traditional"
-msgstr "Chinés - Tradicional"
+msgstr "Chinek - Hengovek"
 
 #: ../frog/language_manager.py:83
 msgid "Cherokee"
-msgstr "Cherokí"
+msgstr "Cherokek"
 
 #: ../frog/language_manager.py:84
 msgid "Corsican"
-msgstr "Còrse"
+msgstr "Korsikek"
 
 #: ../frog/language_manager.py:85
 msgid "Welsh"
-msgstr "Galés"
+msgstr "Kembrek"
 
 #: ../frog/language_manager.py:86
 msgid "Danish"
-msgstr "Danés"
+msgstr "Danek"
 
 #: ../frog/language_manager.py:87
 msgid "German"
-msgstr "Alemand"
+msgstr "Almaynek"
 
 #: ../frog/language_manager.py:88
 msgid "Dzongkha"
-msgstr "Botanés"
+msgstr "Dzongkhek"
 
 #: ../frog/language_manager.py:89
 msgid "Greek, Modern (1453-)"
-msgstr "Grèc, modèrn (1453-)"
+msgstr "Greka, Arnowydh (1453-)"
 
 #: ../frog/language_manager.py:91
 msgid "English, Middle (1100-1500)"
-msgstr ""
+msgstr "Sowsnek, Kres (1100-1500)"
 
 #: ../frog/language_manager.py:92
 msgid "Esperanto"
-msgstr "Esperanto"
+msgstr "Esperantek"
 
 #: ../frog/language_manager.py:93
 msgid "Math / equation detection module"
-msgstr ""
+msgstr "Medhelweyth helerghyans awgrym / kehavalen"
 
 #: ../frog/language_manager.py:94
 msgid "Estonian"
-msgstr "Estonian"
+msgstr "Estoniek"
 
 #: ../frog/language_manager.py:95
 msgid "Basque"
-msgstr "Basc"
+msgstr "Baskek"
 
 #: ../frog/language_manager.py:96
 msgid "Faroese"
-msgstr ""
+msgstr "Faroek"
 
 #: ../frog/language_manager.py:97
 msgid "Persian"
-msgstr "Persan"
+msgstr "Persiek"
 
 #: ../frog/language_manager.py:98
 msgid "Filipino (old - Tagalog)"
-msgstr ""
+msgstr "Felypinek (koth - Tagalog)"
 
 #: ../frog/language_manager.py:99
 msgid "Finnish"
-msgstr "Finés"
+msgstr "Fynnek"
 
 #: ../frog/language_manager.py:100
 msgid "French"
-msgstr "Francés"
+msgstr "Frynkek"
 
 #: ../frog/language_manager.py:101
 msgid "German - Fraktur"
-msgstr ""
+msgstr "Almaynek - Fraktur"
 
 #: ../frog/language_manager.py:102
 msgid "French, Middle (ca.1400-1600)"
-msgstr ""
+msgstr "Frynkek, Kres (1400-1600)"
 
 #: ../frog/language_manager.py:103
 msgid "Western Frisian"
-msgstr "Frison occitendal"
+msgstr "Frisek West"
 
 #: ../frog/language_manager.py:104
 msgid "Scottish Gaelic"
-msgstr "Gaelic escocés"
+msgstr "Godhalek"
 
 #: ../frog/language_manager.py:105
 msgid "Irish"
-msgstr "Irlandés"
+msgstr "Iwerdhonek"
 
 #: ../frog/language_manager.py:106
 msgid "Galician"
-msgstr "Galician"
+msgstr "Gallego"
 
 #: ../frog/language_manager.py:107
 msgid "Greek, Ancient (to 1453) (contrib)"
-msgstr ""
+msgstr "Hen Greka (bys dhe 1453)"
 
 #: ../frog/language_manager.py:108
 msgid "Gujarati"
-msgstr ""
+msgstr "Gujaratiek"
 
 #: ../frog/language_manager.py:109
 msgid "Haitian; Haitian Creole"
-msgstr ""
+msgstr "Haytiek; Creole Haytiek"
 
 #: ../frog/language_manager.py:110
 msgid "Hebrew"
-msgstr "Ebrèu"
+msgstr "Ebrow"
 
 #: ../frog/language_manager.py:111
 msgid "Hindi"
-msgstr "Indi"
+msgstr "Hindiek"
 
 #: ../frog/language_manager.py:112
 msgid "Croatian"
-msgstr "Croat"
+msgstr "Kroatek"
 
 #: ../frog/language_manager.py:113
 msgid "Hungarian"
-msgstr "Ongrés"
+msgstr "Hungarek"
 
 #: ../frog/language_manager.py:114
 msgid "Armenian"
-msgstr "Armèni"
+msgstr "Armeniek"
 
 #: ../frog/language_manager.py:115
 msgid "Inuktitut"
-msgstr ""
+msgstr "Inuktitutek"
 
 #: ../frog/language_manager.py:116
 msgid "Indonesian"
-msgstr "Indonesian"
+msgstr "Indonesek"
 
 #: ../frog/language_manager.py:117
 msgid "Icelandic"
-msgstr "Islandés"
+msgstr "Rewenysek"
 
 #: ../frog/language_manager.py:118
 msgid "Italian"
-msgstr "Italian"
+msgstr "Italek"
 
 #: ../frog/language_manager.py:119
 msgid "Italian - Old"
-msgstr "Italian - Ancian"
+msgstr "Italek - Koth"
 
 #: ../frog/language_manager.py:120
 msgid "Javanese"
-msgstr "Javanés"
+msgstr "Javanek"
 
 #: ../frog/language_manager.py:121
 msgid "Japanese"
-msgstr "Japonés"
+msgstr "Japanek"
 
 #: ../frog/language_manager.py:122
 msgid "Japanese (vertical)"
-msgstr ""
+msgstr "Japanek (plommwedhek)"
 
 #: ../frog/language_manager.py:123
 msgid "Kannada"
-msgstr ""
+msgstr "Kannadek"
 
 #: ../frog/language_manager.py:124
 msgid "Georgian"
-msgstr "Georgian"
+msgstr "Jorjiek"
 
 #: ../frog/language_manager.py:125
 msgid "Georgian - Old"
-msgstr ""
+msgstr "Jorjiek - Koth"
 
 #: ../frog/language_manager.py:126
 msgid "Kazakh"
-msgstr ""
+msgstr "Kazakstanek"
 
 #: ../frog/language_manager.py:127
 msgid "Central Khmer"
-msgstr ""
+msgstr "Khmerek Kresel"
 
 #: ../frog/language_manager.py:128
 msgid "Kirghiz; Kyrgyz"
-msgstr ""
+msgstr "Kyrgyzek"
 
 #: ../frog/language_manager.py:129
 msgid "Kurmanji (Kurdish - Latin Script)"
-msgstr ""
+msgstr "Kurmanjiek (Kurdek - Skrifa Latinek)"
 
 #: ../frog/language_manager.py:130
 msgid "Korean"
-msgstr "Corean"
+msgstr "Koreek"
 
 #: ../frog/language_manager.py:131
 msgid "Korean (vertical)"
-msgstr "Corean (vertical)"
+msgstr "Koreek (plommwedhek)"
 
 #: ../frog/language_manager.py:132
 msgid "Lao"
-msgstr "Lao"
+msgstr "Laosek"
 
 #: ../frog/language_manager.py:133
 msgid "Latin"
@@ -570,326 +573,285 @@ msgstr "Latin"
 
 #: ../frog/language_manager.py:134
 msgid "Latvian"
-msgstr "Leton"
+msgstr "Latviek"
 
 #: ../frog/language_manager.py:135
 msgid "Lithuanian"
-msgstr "Lituanian"
+msgstr "Lithuaniek"
 
 #: ../frog/language_manager.py:136
 msgid "Luxembourgish"
-msgstr "Luxemborgués"
+msgstr "Luksembourgek"
 
 #: ../frog/language_manager.py:137
 msgid "Malayalam"
-msgstr "Malaialam"
+msgstr "Mayayaliek"
 
 #: ../frog/language_manager.py:138
 msgid "Marathi"
-msgstr "Marati"
+msgstr "Marathiek"
 
 #: ../frog/language_manager.py:139
 msgid "Macedonian"
-msgstr "Macedonian"
+msgstr "Makedoniek"
 
 #: ../frog/language_manager.py:140
 msgid "Maltese"
-msgstr "Maltés"
+msgstr "Maltek"
 
 #: ../frog/language_manager.py:141
 msgid "Mongolian"
-msgstr "Mongòl"
+msgstr "Mongoliek"
 
 #: ../frog/language_manager.py:142
 msgid "Maori"
-msgstr "Maòri"
+msgstr "Maoriek"
 
 #: ../frog/language_manager.py:143
 msgid "Malay"
-msgstr "Malés"
+msgstr "Malaysiek"
 
 #: ../frog/language_manager.py:144
 msgid "Burmese"
-msgstr "Birman"
+msgstr "Burmek"
 
 #: ../frog/language_manager.py:145
 msgid "Nepali"
-msgstr "Nepalés"
+msgstr "Nepalek"
 
 #: ../frog/language_manager.py:146
 msgid "Dutch; Flemish"
-msgstr "Neerlandés, flamenc"
+msgstr "Iseldiryek; Flamank"
 
 #: ../frog/language_manager.py:147
 msgid "Norwegian"
-msgstr "Norvegian"
+msgstr "Norgaghek"
 
 #: ../frog/language_manager.py:148
 msgid "Occitan (post 1500)"
-msgstr "Occitan"
+msgstr "Occitanek (wosa 1500)"
 
 #: ../frog/language_manager.py:149
 msgid "Oriya"
-msgstr ""
+msgstr "Oriyek"
 
 #: ../frog/language_manager.py:150
 msgid "Orientation and script detection module"
-msgstr "Modul de deteccio' d'orientacion e de script d'escritura"
+msgstr "Medhelweyth helerghyans tuedhder ha skrifa"
 
 #: ../frog/language_manager.py:151
 msgid "Panjabi; Punjabi"
-msgstr ""
+msgstr "Punjabiek"
 
 #: ../frog/language_manager.py:152
 msgid "Polish"
-msgstr "Polonés"
+msgstr "Polonek"
 
 #: ../frog/language_manager.py:153
 msgid "Portuguese"
-msgstr "Portugués"
+msgstr "Portyngalek"
 
 #: ../frog/language_manager.py:154
 msgid "Pushto; Pashto"
-msgstr ""
+msgstr "Afganek"
 
 #: ../frog/language_manager.py:155
 msgid "Quechua"
-msgstr ""
+msgstr "Quechek"
 
 #: ../frog/language_manager.py:156
 msgid "Romanian; Moldavian; Moldovan"
-msgstr ""
+msgstr "Romaniek; Moldavek"
 
 #: ../frog/language_manager.py:157
 msgid "Russian"
-msgstr "Rus"
+msgstr "Russek"
 
 #: ../frog/language_manager.py:158
 msgid "Sanskrit"
-msgstr ""
+msgstr "Sanskrit"
 
 #: ../frog/language_manager.py:159
 msgid "Sinhala; Sinhalese"
-msgstr ""
+msgstr "Sinhalek"
 
 #: ../frog/language_manager.py:160
 msgid "Slovak"
-msgstr ""
+msgstr "Slovakek"
 
 #: ../frog/language_manager.py:161
 msgid "Slovenian"
-msgstr ""
+msgstr "Slovenek"
 
 #: ../frog/language_manager.py:162
 msgid "Sindhi"
-msgstr ""
+msgstr "Sindhiek"
 
 #: ../frog/language_manager.py:163
 msgid "Spanish; Castilian"
-msgstr "Espanhòl - Castelhan"
+msgstr "Spaynek"
 
 #: ../frog/language_manager.py:164
 msgid "Spanish; Castilian - Old"
-msgstr "Espanhòl ; Castelhan - Ancian"
+msgstr "Spaynek - Koth"
 
 #: ../frog/language_manager.py:165
 msgid "Albanian"
-msgstr "Albanés"
+msgstr "Albaniek"
 
 #: ../frog/language_manager.py:166
 msgid "Serbian"
-msgstr "Sèrbe"
+msgstr "Serbek"
 
 #: ../frog/language_manager.py:167
 msgid "Serbian - Latin"
-msgstr ""
+msgstr "Serbek - Latinek"
 
 #: ../frog/language_manager.py:168
 msgid "Sundanese"
-msgstr "Sodanés"
+msgstr "Sundanek"
 
 #: ../frog/language_manager.py:169
 msgid "Swahili"
-msgstr ""
+msgstr "Swahiliek"
 
 #: ../frog/language_manager.py:170
 msgid "Swedish"
-msgstr ""
+msgstr "Swedek"
 
 #: ../frog/language_manager.py:171
 msgid "Syriac"
-msgstr ""
+msgstr "Syriek"
 
 #: ../frog/language_manager.py:172
 msgid "Tamil"
-msgstr "Tamol"
+msgstr "Tamilek"
 
 #: ../frog/language_manager.py:173
 msgid "Tatar"
-msgstr "Tatar"
+msgstr "Tatarek"
 
 #: ../frog/language_manager.py:174
 msgid "Telugu"
-msgstr ""
+msgstr "Teluguek"
 
 #: ../frog/language_manager.py:175
 msgid "Tajik"
-msgstr ""
+msgstr "Tajikistanek"
 
 #: ../frog/language_manager.py:176
 msgid "Thai"
-msgstr ""
+msgstr "Tai"
 
 #: ../frog/language_manager.py:177
 msgid "Tigrinya"
-msgstr ""
+msgstr "Tigrinyek"
 
 #: ../frog/language_manager.py:178
 msgid "Tonga"
-msgstr ""
+msgstr "Tonganek"
 
 #: ../frog/language_manager.py:179
 msgid "Turkish"
-msgstr "Turc"
+msgstr "Turkek"
 
 #: ../frog/language_manager.py:180
 msgid "Uighur; Uyghur"
-msgstr ""
+msgstr "Uyghurek"
 
 #: ../frog/language_manager.py:181
 msgid "Ukrainian"
-msgstr ""
+msgstr "Ukraynek"
 
 #: ../frog/language_manager.py:182
 msgid "Urdu"
-msgstr ""
+msgstr "Urdu"
 
 #: ../frog/language_manager.py:183
 msgid "Uzbek"
-msgstr ""
+msgstr "Uzbek"
 
 #: ../frog/language_manager.py:184
 msgid "Uzbek - Cyrilic"
-msgstr ""
+msgstr "Uzbek - Cyrilek"
 
 #: ../frog/language_manager.py:185
 msgid "Vietnamese"
-msgstr "Vietnamian"
+msgstr "Vietnamek"
 
 #: ../frog/language_manager.py:186
 msgid "Yiddish"
-msgstr ""
+msgstr "Yedhowek"
 
 #: ../frog/language_manager.py:187
 msgid "Yoruba"
-msgstr ""
+msgstr "Yorubaek"
 
 #: ../frog/main.py:63 ../frog/main.py:83
 msgid "Extract directly into the clipboard"
-msgstr "Traire dirèctament al quichapapièrs"
+msgstr "Tenna yn-mes yn distowgh an astell glypp"
 
 #: ../frog/main.py:194
 msgid "No text found. Try to grab another region."
-msgstr "Cap de tèxte pas trobar. Ensajatz de trapar una autra region."
+msgstr "Tekst kavosys vyth. Assaya dewis tiredh aral."
 
 #: ../frog/main.py:204
 msgid "Text extracted. You can paste it with Ctrl+V"
-msgstr "Tèxt trach. Lo podètz pegar amb Ctrl+V"
+msgstr "Tennys yn-mes tekst. Ty gallos dasskrifewgh y devnydhyow Ctrl+V"
 
 #: ../frog/window.py:151
 msgid "Text copied to clipboard"
-msgstr "Copiats al quichapapièrs"
+msgstr "Tekst dasskrifow dhe astel glypp"
 
 #: ../frog/window.py:162
 msgid "QR-code URL opened"
-msgstr "URL del còdi QR dobèrta"
+msgstr "Gorgevren Kod-QR ygerys"
 
 #: ../frog/window.py:166
 msgid "QR-code contains URL."
-msgstr "Lo còdi QR conten una URL"
+msgstr "Kod-QR kontaynys unn gorgevren."
 
 #: ../frog/window.py:167
 msgid "Open"
-msgstr "Dobrir"
+msgstr "Ygeri"
 
 #: ../frog/window.py:194
 msgid "Supported image files"
-msgstr "Fichièrs imatge preses en carga"
+msgstr "Restrennow aven skoodhys"
 
 #: ../frog/window.py:200
 msgid "Open image to extract text"
-msgstr "Dobrir un imatge per extraire lo tèxte"
+msgstr "Ygeri aven dhe tenna yn-mes tekst"
 
 #: ../frog/window.py:260
 msgid "Only images can be processed that way."
-msgstr "Se pòt pas que tractar los imatges d'aquesta manièra."
+msgstr "Avennow hepken gallos bos dyghtys an agwedh ma."
 
 #: ../frog/window.py:293
 msgid "Text copied"
-msgstr "Tèxte copiat"
+msgstr "Tekst kopys"
 
 #: ../frog/services/clipboard_service.py:54
 msgid "No image in clipboard"
-msgstr "Cap d’imatge al quichapapièrs"
+msgstr "Aven vyth yn astel glypp"
 
 #: ../frog/services/screenshot_service.py:94
 msgid "Can't take a screenshot."
-msgstr "Captura d'ecran impossible."
+msgstr "Fyllis dhe kemeres unn imach."
 
 #: ../frog/widgets/preferences_languages_page.py:80
 msgid "Models location unreachable. Check your internet connection."
-msgstr "Se podiá pas aténher l'emplaçament. Verificatz la connexion internet."
+msgstr "Tyller medhelweyth ankavadow. Checkya dha junyans kesrosweyth."
 
 #: ../frog/widgets/preferences_languages_page.py:86
 msgid "You are on a metered connection. Be careful to download languages."
-msgstr "Utilizatz una connexion limitada. Agachatz de telecargar de lengas."
+msgstr "Ty yw war unn junyans strothys. Bedhewgh prederus pan iskargow yethow."
 
 #: ../frog/widgets/preferences_languages_page.py:123
 msgid "View all available languages"
-msgstr "Veire totas las lengas disponiblas"
+msgstr "Gweles oll yethow kavadow"
 
 #: ../frog/widgets/share_row.py:48
 #, python-brace-format
 msgid "Share via {0}"
-msgstr "Partejar via {0}"
-
-#~ msgid "Tender Owl"
-#~ msgstr "Tender Owl"
-
-#, fuzzy
-#~ msgid "Open Image to extract text"
-#~ msgstr "Seleccionatz la lenga de traire"
-
-#~ msgid "What's new:"
-#~ msgstr "Qué de nòu :"
-
-#~ msgid "Translations updated."
-#~ msgstr "Traduccions mesas a jorn."
-
-#, fuzzy
-#~ msgid "Extract text from anywhere, even QR code"
-#~ msgstr "Traire lo tèxt d’ont que venga"
-
-#~ msgid "Configure Languages"
-#~ msgstr "Configurar las lengas"
-
-#~ msgid "Clear the extraction results"
-#~ msgstr "Escafar los resultats de l’extraccion"
-
-#~ msgid ""
-#~ "Copy extracted text to clipboard\n"
-#~ "                                "
-#~ msgstr "Copiar lo tèxt trach al quichapapièrs"
-
-#~ msgid ""
-#~ "Frog can help you to instantly extract text\n"
-#~ "from any QR code, image, video, PDF, etc."
-#~ msgstr ""
-#~ "Frog pòt vos ajudar a traire de tèxt rapidament a partir\n"
-#~ "d’un còdi QR, un imatge, una vidèo, un PDF, etc."
-
-#~ msgid "Learn more about Frog"
-#~ msgstr "Ne saber mai tocant Frog"
-
-#~ msgid "Configure"
-#~ msgstr "Configurar"
+msgstr "Kevrenna dre {0}"
